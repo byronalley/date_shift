@@ -1,6 +1,6 @@
 use chrono::{DateTime, Datelike, NaiveDateTime, TimeZone};
 use chrono_tz::{America, Tz};
-use regex::{Regex, RegexBuilder};
+use regex::RegexBuilder;
 use std::env;
 use std::io::{self, BufRead};
 
